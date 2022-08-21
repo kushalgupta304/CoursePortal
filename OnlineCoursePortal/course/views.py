@@ -51,4 +51,4 @@ class CourseAnalytics(APIView):
             analytics.append({"course_name":c.c_name, "enrollments": count})
 
         
-        return Response({"analtyics":analytics})
+        return Response({"analytics":analytics})
